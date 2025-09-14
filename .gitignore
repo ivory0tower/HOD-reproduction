@@ -1,0 +1,56 @@
+# 数据集文件（太大，不适合上传到GitHub）
+HOD-Benchmark-Dataset/dataset/
+
+# YOLOv5训练结果和缓存
+yolov5/runs/
+yolov5/__pycache__/
+yolov5/models/__pycache__/
+yolov5/utils/__pycache__/
+
+# YOLO数据缓存
+yolo_data/train/labels.cache
+yolo_data/val/labels.cache
+yolo_data/test/labels.cache
+
+# Python缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 模型权重文件（太大）
+*.pt
+*.pth
+*.weights
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 环境文件
+.env
+.venv
+env/
+venv/
+
+# Jupyter Notebook检查点
+.ipynb_checkpoints/
+
+# 测试输出图片
+test_*.jpg
+result_*.jpg
+output_*.jpg

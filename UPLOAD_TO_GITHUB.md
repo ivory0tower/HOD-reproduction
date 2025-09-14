@@ -23,7 +23,7 @@
 
 ```bash
 cd /root/autodl-tmp/HOD_reproduction
-git remote add origin https://github.com/YOUR_USERNAME/HOD-reproduction.git
+git remote add origin https://github.com/ivory0tower/HOD-reproduction.git
 git branch -M main
 git push -u origin main
 ```

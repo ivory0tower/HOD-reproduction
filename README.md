@@ -6,19 +6,19 @@
 
 ```
 HOD_reproduction/
-├── HOD-Benchmark-Dataset/          # HOD数据集 (21,262张图片)
+├── HOD-Benchmark-Dataset/          # HOD数据集 (10,631张图片)
 │   ├── dataset/
 │   │   ├── all/                    # 完整数据集
 │   │   │   ├── jpg/               # 图像文件
 │   │   │   ├── xml/               # XML标注文件
 │   │   │   └── txt/               # TXT标注文件
 │   │   └── class/                  # 按类别分组的数据
-│   │       ├── alcohol/           # 酒精类 (3,550张)
-│   │       ├── blood/             # 血液类 (2,883张)
-│   │       ├── cigarette/         # 香烟类 (3,550张)
-│   │       ├── gun/               # 枪支类 (3,550张)
-│   │       ├── insulting_gesture/ # 侮辱手势类 (3,550张)
-│   │       └── knife/             # 刀具类 (4,179张)
+│   │       ├── alcohol/           # 酒精类 (1,775张)
+│   │       ├── blood/             # 血液类 (1,442张)
+│   │       ├── cigarette/         # 香烟类 (1,775张)
+│   │       ├── gun/               # 枪支类 (1,775张)
+│   │       ├── insulting_gesture/ # 侮辱手势类 (1,775张)
+│   │       └── knife/             # 刀具类 (2,089张)
 │   └── codes/                      # 官方代码实现
 ├── yolov5/                         # YOLOv5框架
 ├── faster_rcnn_retrain.py          # 改进的Faster R-CNN训练脚本
